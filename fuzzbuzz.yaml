@@ -4,6 +4,8 @@ targets:
     language: go
     version: "1.14"
     corpus: ./corpus
+    setup: 
+      - dep ensure
     harness:
       function: Fuzz
       package: github.com/mariusvanderwijden/fuzzbuzz
