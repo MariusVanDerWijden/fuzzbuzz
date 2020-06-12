@@ -1,4 +1,4 @@
-package abi
+package fuzzbuzz
 
 import (
 	"bytes"
